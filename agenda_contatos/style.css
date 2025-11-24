@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+}
+
+.caixa-geral {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    background: #193191ff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.bloco {
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(33, 53, 71, 0.06);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: 600;
+}
+
+input[type=text], input[type=email] {
+    border: 1px solid #d6dbe2;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button {
+    color: #fff;
+    background: #0b79d0;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 0;
+}
+
+button:hover {
+    opacity: 0.95;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 8px;
+}
+
+th, td {
+    border-bottom: 1px solid #eef3f7;
+    padding: 10px;
+    text-align: left;
+}
+
+.acoes {
+    white-space: nowrap;
+}
+
+.botao {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+.botao.editar {
+    color: #000;
+    background: #ffd966;
+}
+
+.botao.excluir {
+    color: #fff;
+    background: #ff6b6b;
+}
+
+.botao.cancelar {
+    color: #fff;
+    background: #999;
+    display: inline-block;
+    margin-left: 8px;
+    padding: 8px 12px;
+}
+
+@media (max-width:640px) {
+
+    th, td {
+        display: block;
+    }
+
+    tr {
+        margin-bottom: 12px;
+    }
+}
