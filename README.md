@@ -1,15 +1,13 @@
-Este repositório contém o desenvolvimento de um sistema simples de gerenciamento de tarefas, criado como parte de um trabalho acadêmico da disciplina de [coloque a disciplina]. O projeto utiliza PHP, MySQL (via XAMPP) e HTML/CSS para demonstrar conceitos básicos de desenvolvimento web, manipulação de banco de dados e organização de código.
+# 📌 Descrição do Projeto
 
-O sistema permite:
+Este repositório contém o código desenvolvido para o trabalho acadêmico.  
+O objetivo é apresentar um sistema simples utilizando HTML, CSS, PHP e MySQL, focado em praticar os conceitos vistos em sala
 
-➕ Criar novas tarefas
+O projeto inclui:
 
-✏️ Editar informações
+- Estruturação básica de páginas em PHP  
+- Conexão com banco de dados  
+- Manipulação de dados (CRUD)  
+- Estilização simples com CSS  
 
-✔️ Marcar tarefas como concluídas
-
-🗑️ Excluir registros
-
-📅 Organizar por data de vencimento
-
-O objetivo principal é demonstrar a integração entre frontend e backend, além da construção de uma aplicação funcional utilizando boas práticas básicas de programação.
+Este trabalho demonstra minha evolução no desenvolvimento web e na construção de sistemas dinâmicos
