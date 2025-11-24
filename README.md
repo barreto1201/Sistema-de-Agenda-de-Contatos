@@ -11,3 +11,5 @@ O projeto inclui:
 - Estilização simples com CSS  
 
 Este trabalho demonstra minha evolução no desenvolvimento web e na construção de sistemas dinâmicos
+
+Com o uso da ferramenta XAMPP (Apache + MySQL)
